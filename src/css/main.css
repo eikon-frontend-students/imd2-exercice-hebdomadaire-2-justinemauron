@@ -23,3 +23,27 @@ body {
   line-height: 24px;
   text-transform: uppercase;
 }
+
+.nav {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding-bottom: 1013px;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar {
+  display: flex;
+  width: 1728px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.burger-menu {
+  width: 30px;
+  height: 34.286px;
+  flex-shrink: 0;
+}
