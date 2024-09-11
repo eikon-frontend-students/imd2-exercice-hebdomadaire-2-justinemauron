@@ -35,7 +35,6 @@ body {
 
 .topbar {
   display: flex;
-  width: 1728px;
   padding: 20px 50px;
   justify-content: space-between;
   align-items: center;
@@ -46,4 +45,41 @@ body {
   width: 30px;
   height: 34.286px;
   flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 32px;
+  background: #fff;
+  max-width: 500px;
+}
+
+.language {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.contact {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.info {
+  display: flex;
 }
